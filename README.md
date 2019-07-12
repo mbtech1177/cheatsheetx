@@ -88,6 +88,10 @@ Nmap to avoid the firewall
     WordPress scan
     git clone https://github.com/wpscanteam/wpscan.git && cd wpscan
     ./wpscan –url http://IP/ –enumerate p
+    ---
+    
+    wpscan --enumerate p  --disable-tls-checks --rua --url https//targ
+
 
 # HTTP fingerprint identification
 
